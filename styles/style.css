@@ -1,0 +1,26 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    font-family: "Raleway", sans-serif;
+}
+
+/* bannner image style here */
+.banner-image{
+    background-image: url("../images/banner.png");
+    height: 550px;
+    width: 100%;
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    background-position: center;
+    position: relative;
+}
+
+.banner-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+     
+} 
