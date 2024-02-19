@@ -24,3 +24,15 @@ body{
     transform: translate(-50%, -50%);
      
 } 
+
+.wheel-container{
+    position: relative;
+    height: 56px;
+}
+.wheel{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+
